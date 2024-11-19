@@ -12,7 +12,7 @@ s = (a + b + c) / 2
 area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
 print('The area of the triangle is %0.2f' %area)
 
-# 2
+# 2 practice
 
 def area_of_triangle(base, height):
     area = 0.5 * base * height
