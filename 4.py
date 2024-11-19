@@ -14,3 +14,10 @@ print('The area of the triangle is %0.2f' %area)
 
 # 2
 
+def area_of_triangle(base, height):
+    area = 0.5 * base * height
+    return round(area, 2)
+base = 3
+height = 4
+print(area_of_triangle(base, height))
+
