@@ -24,3 +24,14 @@ print('The solution are {0} and {1}'.format(sol1,sol2))
 # Enter b: 5
 # Enter c: 6
 # The solutions are (-3+0j) and (-2+0j)
+
+# challenge
+import cmath  # For handling complex numbers
+def solve_quadratic(a, b, c):
+    # Calculate the discriminant
+    discriminant = b**2 - 4*a*c
+    # Calculate the two solutions using the quadratic formula
+    root1 = (-b + cmath.sqrt(discriminant)) / (2 * a)
+    root2 = (-b - cmath.sqrt(discriminant)) / (2 * a)
+    # Return the roots as a list, ensuring root1 appears first
+    return [root1, root2]
