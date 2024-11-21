@@ -22,17 +22,17 @@ x, y = y, x
 print("x =", x)
 print("y =", y)
 
-Addition and Subtraction
+#Addition and Subtraction
 x = x + y
 y = x - y
 x = x - y
-Multiplication and Division
+#Multiplication and Division
 x = x * y
 y = x / y
 x = x / y
 XOR swap
 
-This algorithm works for integers only
+#This algorithm works for integers only
 x = x ^ y
 y = x ^ y
 x = x ^ y
