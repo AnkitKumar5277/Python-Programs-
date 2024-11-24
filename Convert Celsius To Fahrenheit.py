@@ -8,5 +8,5 @@ print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahre
 
 # output
 # 37.5 degree Celsius is equal to 99.5 degree Fahrenheit
-
+# formula
 # celsius = (fahrenheit - 32) / 1.8
