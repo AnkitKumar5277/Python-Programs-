@@ -6,3 +6,5 @@ celsius = 37.5
 fahrenheit = (celsius * 1.8) + 32
 print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))
 # 37.5 degree Celsius is equal to 99.5 degree Fahrenheit
+
+# celsius = (fahrenheit - 32) / 1.8
