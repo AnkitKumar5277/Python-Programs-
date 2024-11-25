@@ -21,3 +21,12 @@ else:
 # Enter a number: 0
 # Zero
 
+# Challenge:
+def direction(number):
+    if number > 0:
+        return 'Up'
+    elif number < 0:
+        return 'Down'
+    else:
+        return 'Zero'
+# print(direction(5))  # Output: 'Up'
