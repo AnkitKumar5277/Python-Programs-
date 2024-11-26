@@ -11,3 +11,8 @@ else:
 # 43 is Odd
 # Enter a number: 18
 # 18 is Even
+
+# Challenge:
+# Write a function to check if the entered integer is odd or even.
+
+
