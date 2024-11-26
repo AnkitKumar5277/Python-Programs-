@@ -14,5 +14,24 @@ else:
 
 # Challenge:
 # Write a function to check if the entered integer is odd or even.
+def check_odd_or_even(number):
+    """
+    Determines if a given number is odd or even.
+    
+    Args:
+        number (int): The number to be checked.
+    
+    Returns:
+        str: "Odd" if the number is odd, "Even" if the number is even.
+    """
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Example usage:
+print(check_odd_or_even(4))  # Output: Even
+print(check_odd_or_even(7))  # Output: Odd
+
 
 
