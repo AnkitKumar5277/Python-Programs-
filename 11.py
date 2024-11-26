@@ -9,3 +9,6 @@ else:
 
 # Enter a number: 43
 # 43 is Odd
+
+# Enter a number: 18
+# 18 is Even
