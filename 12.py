@@ -24,3 +24,13 @@ else:
 
 # output
 # 2000 is a leap year
+
+# challenge
+def count_leap_years(start_year, end_year):
+    leap_years = 0
+    for year in range(start_year, end_year + 1):
+        if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+            leap_years += 1
+    return leap_years
+# Example usage
+print(count_leap_years(2000, 2020))  # Output: 6
