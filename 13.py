@@ -16,3 +16,9 @@ else:
    largest = num3
 print("The largest number is", largest)
 # The largest number is 14
+
+# ```python
+def find_smallest(a, b, c):
+    return min(a, b, c)
+print(find_smallest(3, 1, 2))  # Output: 1
+# ```
