@@ -41,3 +41,28 @@ else:
    print(num,"is not a prime number")
 # Write a function to check whether a number is prime or not.
 # For example, for input 7, the output should be True.
+
+def is_prime(number):
+    """
+    Check if a number is a prime number.
+    Args:
+    number (int): The number to check.
+    Returns:
+    bool: True if the number is prime, False otherwise.
+    """
+    if number <= 1:  # Numbers less than or equal to 1 are not prime
+        return False
+    if number <= 3:  # 2 and 3 are prime
+        return True
+    if number % 2 == 0 or number % 3 == 0:  # Eliminate multiples of 2 and 3
+        return False
+    # Check divisors from 5 to √number
+    i = 5
+    while i * i <= number:
+        if number % i == 0 or number % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+# Example usage
+print(is_prime(7))  # Output: True
+
