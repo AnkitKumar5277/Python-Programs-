@@ -20,11 +20,10 @@ elif num > 1:
     else:
         print(num, "is a prime number")
 
-num = 407
 
+# num = 407
 # To take input from the user
-#num = int(input("Enter a number: "))
-
+num = int(input("Enter a number: "))
 if num == 0 or num == 1:
     print(num, "is not a prime number")
 elif num > 1:
@@ -36,7 +35,6 @@ elif num > 1:
            break
    else:
        print(num,"is a prime number")
-       
 # if input number is less than
 # or equal to 1, it is not prime
 else:
