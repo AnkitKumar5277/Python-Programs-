@@ -1,13 +1,9 @@
 # Program to check if a number is prime or not
-
-num = 29
-
+# num = 29
 # To take input from the user
-#num = int(input("Enter a number: "))
-
+num = int(input("Enter a number: "))
 # define a flag variable
 flag = False
-
 if num == 0 or num == 1:
     print(num, "is not a prime number")
 elif num > 1:
@@ -18,7 +14,6 @@ elif num > 1:
             flag = True
             # break out of loop
             break
-
     # check if flag is True
     if flag:
         print(num, "is not a prime number")
