@@ -39,3 +39,6 @@ elif num > 1:
 # or equal to 1, it is not prime
 else:
    print(num,"is not a prime number")
+
+# Write a function to check whether a number is prime or not.
+# For example, for input 7, the output should be True.
