@@ -10,3 +10,18 @@ for num in range(lower, upper + 1):
                break
        else:
            print(num)
+# Prime numbers between 900 and 1000 are:
+# 907
+# 911
+# 919
+# 929
+# 937
+# 941
+# 947
+# 953
+# 967
+# 971
+# 977
+# 983
+# 991
+# 997
