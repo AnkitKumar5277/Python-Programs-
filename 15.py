@@ -29,14 +29,12 @@ for num in range(lower, upper + 1):
 def is_prime_in_range(number, start, end):
     if number <= 1:
         return False  # 0 and 1 are not prime numbers
-    
     # Check divisors in the specified range
     for divisor in range(start, end + 1):
         if divisor > 1 and divisor < number and number % divisor == 0:
             return False  # Divisible within range; not prime
-    
     return True
-
 # Example usage
 result = is_prime_in_range(49, 2, 6)
-print(result)  # Output: True
+print(result) 
+# Output: True
