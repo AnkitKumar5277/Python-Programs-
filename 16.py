@@ -43,3 +43,7 @@ num = int(input("Enter a number: "))
 result = factorial(num)
 print("The factorial of", num, "is", result)
 
+Write a function to calculate the factorial of a number.
+
+# The factorial of a non-negative integer n is the product of all positive integers less than or equal to n.
+# For example, for input5, the output should be 120
