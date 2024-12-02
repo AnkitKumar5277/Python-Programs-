@@ -47,3 +47,16 @@ Write a function to calculate the factorial of a number.
 
 # The factorial of a non-negative integer n is the product of all positive integers less than or equal to n.
 # For example, for input5, the output should be 120
+def factorial(n):
+    if n < 0:
+        raise ValueError("Factorial is not defined for negative numbers.")
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+# Example usage
+number = 5
+print(f"The factorial of {number} is {factorial(number)}")
+
+
+
