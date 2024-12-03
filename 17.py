@@ -1,3 +1,4 @@
+# Python Program to Display the multiplication Table
 # Multiplication table (from 1 to 10) in Python
 # num = 12
 # To take input from the user
