@@ -1,11 +1,11 @@
 # Multiplication table (from 1 to 10) in Python
-num = 12
+# num = 12
 # To take input from the user
-# num = int(input("Display multiplication table of? "))
+num = int(input("Display multiplication table of? "))
 # Iterate 10 times from i = 1 to 10
 for i in range(1, 11):
    print(num, 'x', i, '=', num*i)
-
+# output
 # 12 x 1 = 12
 # 12 x 2 = 24
 # 12 x 3 = 36
