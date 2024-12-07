@@ -40,3 +40,12 @@ if num == sum:
 else:
    print(num,"is not an Armstrong number")
 
+#challenge
+def sum_of_digits(number):
+    return sum(int(digit) for digit in str(number))
+# Example usage:
+number = 12345
+result = sum_of_digits(number)
+print(result)  # Output: 15
+
+
