@@ -15,3 +15,10 @@ if num == sum:
    print(num,"is an Armstrong number")
 else:
    print(num,"is not an Armstrong number")
+
+# Output 1
+# Enter a number: 663
+# 663 is not an Armstrong number
+# Output 2
+# Enter a number: 407
+# 407 is an Armstrong number
