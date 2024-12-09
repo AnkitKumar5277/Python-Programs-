@@ -1,5 +1,6 @@
 # Python Program to Find Armstrong Number in an Interval
 # Program to check Armstrong numbers in a certain interval
+
 lower = 100
 upper = 2000
 for num in range(lower, upper + 1):
@@ -14,7 +15,6 @@ for num in range(lower, upper + 1):
        temp //= 10
    if num == sum:
        print(num)
-      
 # #output
 # 153
 # 370
