@@ -14,3 +14,9 @@ for num in range(lower, upper + 1):
        temp //= 10
    if num == sum:
        print(num)
+# #output
+# 153
+# 370
+# 371
+# 407
+# 1634
