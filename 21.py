@@ -22,4 +22,9 @@ def sum_of_natural_numbers(n):
 number = 5
 result = sum_of_natural_numbers(number)
 print(f"The sum of the first {number} natural numbers is {result}.")
+# or
+def sum_of_natural_numbers(n):
+    return n * (n + 1) // 2  # // is for whole number division
+print(sum_of_natural_numbers(5))  # Output will be 15
+
 
