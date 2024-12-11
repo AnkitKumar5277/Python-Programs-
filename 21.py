@@ -1,8 +1,6 @@
 # Python Program to Find the Sum of Natural Numbers
 # Sum of natural numbers up to num
-
 num = 16
-
 if num < 0:
    print("Enter a positive number")
 else:
