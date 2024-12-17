@@ -8,6 +8,7 @@ print("Numbers divisible by 13 are",result)
 # output
 # Numbers divisible by 13 are [65, 39, 221]
 
+
 # challenge
 # Write a function to check if a number is divisible by five.
 # Return True if the number is divisible by 5. Otherwise, return False.
