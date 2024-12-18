@@ -5,6 +5,7 @@ print("The decimal value of", dec, "is:")
 print(bin(dec), "in binary.")
 print(oct(dec), "in octal.")
 print(hex(dec), "in hexadecimal.")
+
 # output
 # The decimal value of 344 is:
 # 0b101011000 in binary.
