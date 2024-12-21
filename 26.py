@@ -15,4 +15,11 @@ print("the h.c.f. is", compute_hcf(num1, num2))
 # The H.C.F. is 6
 
 # Source Code: Using the Euclidean Algorithm
+def compute_hcf(x,y):
+  while(y):
+    x,y = x&y
+  return x
+hcf = compute_hcf(300, 400)
+print("the hcf is", hcf)
+
 
