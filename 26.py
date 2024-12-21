@@ -21,5 +21,4 @@ def compute_hcf(x,y):
   return x
 hcf = compute_hcf(300, 400)
 print("the hcf is", hcf)
-
-
+# The HCF is 100
