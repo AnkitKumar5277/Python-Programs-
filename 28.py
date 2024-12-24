@@ -9,3 +9,18 @@ def print_factors(x):
 num = 320
 
 print_factors(num)
+# The factors of 320 are:
+# 1
+# 2
+# 4
+# 5
+# 8
+# 10
+# 16
+# 20
+# 32
+# 40
+# 64
+# 80
+# 160
+# 320
