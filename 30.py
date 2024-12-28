@@ -9,6 +9,7 @@ yy = int(input("Enter year: "))
 mm = int(input("Enter month: "))
 # display the calendar
 print(calendar.month(yy, mm))
+# output
 #    November 2014
 # Mo Tu We Th Fr Sa Su
 #              1  2
