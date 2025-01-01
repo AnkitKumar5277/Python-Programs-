@@ -12,3 +12,4 @@ elif num == 0:
    print("The factorial of 0 is 1")
 else:
    print("The factorial of", num, "is", recur_factorial(num))
+# The factorial of 7 is 5040
