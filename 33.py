@@ -9,3 +9,4 @@ if num < 0:
    print("Enter a positive number")
 else:
    print("The sum is",recur_sum(num))
+# The sum is 136
