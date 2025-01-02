@@ -6,3 +6,4 @@ def converttobinary(n):
 dec = 34
 converttobinary(dec)
 print()
+# 100010
