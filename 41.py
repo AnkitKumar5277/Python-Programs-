@@ -5,4 +5,13 @@ words.sort()
 print("the sorted words are:")
 for word in words:
   print(word)
-  
+# # ouput
+# The sorted words are:
+# an
+# cased
+# example
+# hello
+# is
+# letters
+# this
+# with
