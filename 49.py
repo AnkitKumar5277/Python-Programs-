@@ -12,3 +12,11 @@ os.makedirs("/root/dirA/dirB")
 import distutils.dir_util
 distutils.dir_util.mkpath("/root/dirA/dirB")
 
+# Example 4: Raising an exception if directory already exists
+import os
+try:
+    os.makedirs("/dirA/dirB")
+except FileExistsError:
+    print("File already exists")
+
+
