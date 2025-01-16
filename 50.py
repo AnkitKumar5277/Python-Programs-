@@ -25,4 +25,9 @@ l = [21, 44, 35, 11]
 for index in range(len(l)):
     value = l[index]
     print(index, value)
+# Output
+# 0 21
+# 1 44
+# 2 35
+# 3 11
 
