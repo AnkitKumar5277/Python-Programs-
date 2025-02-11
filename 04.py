@@ -12,3 +12,7 @@ print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahre
 # formula
 # celsius = (fahrenheit - 32) / 1.8
 
+# Program to generate a random number between 0 and 9
+# importing the random module
+import random 
+print(random.randint(0,9))  #random.randint(a,b)
