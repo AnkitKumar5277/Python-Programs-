@@ -2,7 +2,7 @@
 # 1900 is a not leap year
 # 2012 is a leap year
 # 2000 is a leap year
-
+ 
 # Python program to check if year is a leap year or not
 # To get year (integer input) from the user
 year = int(input("Enter a year: "))
