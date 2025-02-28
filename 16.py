@@ -11,3 +11,12 @@ print(hex(dec), "in hexadecimal.")
 # 0b101011000 in binary.
 # 0o530 in octal.
 # 0x158 in hexadecimal.
+
+# Python Program to Find ASCII Value of Character
+# ASCII stands for American Standard Code for Information Interchange.
+# Program to find the ASCII value of the given character
+c = 'p'
+print("The ASCII value of '" + c + "' is", ord(c))
+# output
+# The ASCII value of 'p' is 112
+
