@@ -1,3 +1,15 @@
+# Python Program to Create Pyramid Patterns
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+rows = int(input("Enter number of rows: "))
+for i in range(rows):
+  for j in range(i+1):
+    print("*", end="")
+  print()
+
 # Python Program to Display Fibonacci Sequence Using Recursion
 # Python program to display the Fibonacci sequence
 def recur_fibo(n):
