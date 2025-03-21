@@ -44,3 +44,21 @@ print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahre
 # importing the random module
 import random 
 print(random.randint(0,9))  #random.randint(a,b)
+
+# Python Program to Sort Words in Alphabetic Order
+my_str = "Hello this Is an Example With cased letters"
+words = [word.lower() for word in in my_str.split()]
+words.sort()
+print("the sorted words are:")
+for word in words:
+  print(word)
+# # ouput
+# The sorted words are:
+# an
+# cased
+# example
+# hello
+# is
+# letters
+# this
+# with
