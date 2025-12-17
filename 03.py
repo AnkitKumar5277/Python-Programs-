@@ -1,13 +1,7 @@
-# Python Program to calculate the square root
-num = float(input('Enter a number: '))
-num_sqrt = num ** 0.5
-print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))
-
 # Find square root of real or complex numbers
-# Importing the complex math module
 import cmath
 num = 1+2j
-#num = eval(input('Enter a number: '))
+num = eval(input('Enter a number: '))
 num_sqrt = cmath.sqrt(num)
 print('The square root of {0} is {1:0.3f}+{2:0.3f}j'.format(num ,num_sqrt.real,num_sqrt.imag))
 
@@ -32,7 +26,6 @@ print(area_of_triangle(base, height))
 lower = 100
 upper = 2000
 for num in range(lower, upper + 1):
-   # order of number
    order = len(str(num))
    # initialize sum
    sum = 0
@@ -90,7 +83,7 @@ print("the h.c.f. is", compute_hcf(num1, num2))
 # Source Code: Using the Euclidean Algorithm
 def compute_hcf(x,y):
   while(y):
-    x,y = x&y
+    x,y = x&y`
   return x
 hcf = compute_hcf(300, 400)
 print("the hcf is", hcf)
